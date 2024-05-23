@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>首页</title>
+    <link rel="stylesheet" href="../3/daohanglan.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>YTKJ ISO</h3>
+                <p>
+                    python可视化
+                </p>
+                <a href="#">GO</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>YTKJ MIN</h3>
+                <p>
+                   微信小程序
+                </p>
+                <a href="#">GO</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>YTKJ MAX</h3>
+                <p>
+                   Hadoop应用开发
+                </p>
+                <a href="#">GO</a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <header>
+        <a href="daohanglan.html" class="logo">YTKJ</a>
+        <ul>
+            <li><a href="chanping.html">产品</a></li>
+            <li><a href="yituo.html">研发</a></li>
+            <li><a href="youxi-xiaofeiji.html">设计</a></li>
+            <li><a href="youxi.html">游戏</a></li>
+            <li><a href="../3/daan/daan.html">答案</a></li>
+            <li><a href="daan.html">互传</a></li>
+        </ul>
+         
+    </header>
+    <video autoplay muted loop controls>  
+        <source src="video.mp4" type="video/mp4">    
+    </video> 
+    <script src="../3/chanping.js"></script>
+    <section class="banner1"></section>
+    <section class="banner2"></section>
+    <script>
+        window.addEventListener("scroll",()=>{let header=document.querySelector("header");header.classList.toggle("sticky",window.scrollY>0);})
+    </script>
+</body>
+</html>
